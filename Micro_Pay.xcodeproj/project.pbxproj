@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBFC9335285091BE00123652 /* Micro_PayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC9334285091BE00123652 /* Micro_PayApp.swift */; };
+		FBFC9337285091BE00123652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC9336285091BE00123652 /* ContentView.swift */; };
+		FBFC9339285091C100123652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFC9338285091C100123652 /* Assets.xcassets */; };
+		FBFC933C285091C200123652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFC933B285091C200123652 /* Preview Assets.xcassets */; };
+		FBFC9346285091C200123652 /* Micro_PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC9345285091C200123652 /* Micro_PayTests.swift */; };
+		FBFC9350285091C200123652 /* Micro_PayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC934F285091C200123652 /* Micro_PayUITests.swift */; };
+		FBFC9352285091C200123652 /* Micro_PayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC9351285091C200123652 /* Micro_PayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBFC9342285091C200123652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFC9329285091BE00123652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFC9330285091BE00123652;
+			remoteInfo = Micro_Pay;
+		};
+		FBFC934C285091C200123652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFC9329285091BE00123652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFC9330285091BE00123652;
+			remoteInfo = Micro_Pay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBFC9331285091BE00123652 /* Micro_Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Micro_Pay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFC9334285091BE00123652 /* Micro_PayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_PayApp.swift; sourceTree = "<group>"; };
+		FBFC9336285091BE00123652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBFC9338285091C100123652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFC933B285091C200123652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBFC9341285091C200123652 /* Micro_PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Micro_PayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFC9345285091C200123652 /* Micro_PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_PayTests.swift; sourceTree = "<group>"; };
+		FBFC934B285091C200123652 /* Micro_PayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Micro_PayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFC934F285091C200123652 /* Micro_PayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_PayUITests.swift; sourceTree = "<group>"; };
+		FBFC9351285091C200123652 /* Micro_PayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_PayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFC932E285091BE00123652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC933E285091C200123652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC9348285091C200123652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBFC9328285091BD00123652 = {
+			isa = PBXGroup;
+			children = (
+				FBFC9333285091BE00123652 /* Micro_Pay */,
+				FBFC9344285091C200123652 /* Micro_PayTests */,
+				FBFC934E285091C200123652 /* Micro_PayUITests */,
+				FBFC9332285091BE00123652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFC9332285091BE00123652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC9331285091BE00123652 /* Micro_Pay.app */,
+				FBFC9341285091C200123652 /* Micro_PayTests.xctest */,
+				FBFC934B285091C200123652 /* Micro_PayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFC9333285091BE00123652 /* Micro_Pay */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC9334285091BE00123652 /* Micro_PayApp.swift */,
+				FBFC9336285091BE00123652 /* ContentView.swift */,
+				FBFC9338285091C100123652 /* Assets.xcassets */,
+				FBFC933A285091C200123652 /* Preview Content */,
+			);
+			path = Micro_Pay;
+			sourceTree = "<group>";
+		};
+		FBFC933A285091C200123652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC933B285091C200123652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBFC9344285091C200123652 /* Micro_PayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC9345285091C200123652 /* Micro_PayTests.swift */,
+			);
+			path = Micro_PayTests;
+			sourceTree = "<group>";
+		};
+		FBFC934E285091C200123652 /* Micro_PayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC934F285091C200123652 /* Micro_PayUITests.swift */,
+				FBFC9351285091C200123652 /* Micro_PayUITestsLaunchTests.swift */,
+			);
+			path = Micro_PayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFC9330285091BE00123652 /* Micro_Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFC9355285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_Pay" */;
+			buildPhases = (
+				FBFC932D285091BE00123652 /* Sources */,
+				FBFC932E285091BE00123652 /* Frameworks */,
+				FBFC932F285091BE00123652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Micro_Pay;
+			productName = Micro_Pay;
+			productReference = FBFC9331285091BE00123652 /* Micro_Pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBFC9340285091C200123652 /* Micro_PayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFC9358285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_PayTests" */;
+			buildPhases = (
+				FBFC933D285091C200123652 /* Sources */,
+				FBFC933E285091C200123652 /* Frameworks */,
+				FBFC933F285091C200123652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFC9343285091C200123652 /* PBXTargetDependency */,
+			);
+			name = Micro_PayTests;
+			productName = Micro_PayTests;
+			productReference = FBFC9341285091C200123652 /* Micro_PayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBFC934A285091C200123652 /* Micro_PayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFC935B285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_PayUITests" */;
+			buildPhases = (
+				FBFC9347285091C200123652 /* Sources */,
+				FBFC9348285091C200123652 /* Frameworks */,
+				FBFC9349285091C200123652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFC934D285091C200123652 /* PBXTargetDependency */,
+			);
+			name = Micro_PayUITests;
+			productName = Micro_PayUITests;
+			productReference = FBFC934B285091C200123652 /* Micro_PayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFC9329285091BE00123652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FBFC9330285091BE00123652 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FBFC9340285091C200123652 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FBFC9330285091BE00123652;
+					};
+					FBFC934A285091C200123652 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FBFC9330285091BE00123652;
+					};
+				};
+			};
+			buildConfigurationList = FBFC932C285091BE00123652 /* Build configuration list for PBXProject "Micro_Pay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFC9328285091BD00123652;
+			productRefGroup = FBFC9332285091BE00123652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFC9330285091BE00123652 /* Micro_Pay */,
+				FBFC9340285091C200123652 /* Micro_PayTests */,
+				FBFC934A285091C200123652 /* Micro_PayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFC932F285091BE00123652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFC933C285091C200123652 /* Preview Assets.xcassets in Resources */,
+				FBFC9339285091C100123652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC933F285091C200123652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC9349285091C200123652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFC932D285091BE00123652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFC9337285091BE00123652 /* ContentView.swift in Sources */,
+				FBFC9335285091BE00123652 /* Micro_PayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC933D285091C200123652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFC9346285091C200123652 /* Micro_PayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC9347285091C200123652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFC9352285091C200123652 /* Micro_PayUITestsLaunchTests.swift in Sources */,
+				FBFC9350285091C200123652 /* Micro_PayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBFC9343285091C200123652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFC9330285091BE00123652 /* Micro_Pay */;
+			targetProxy = FBFC9342285091C200123652 /* PBXContainerItemProxy */;
+		};
+		FBFC934D285091C200123652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFC9330285091BE00123652 /* Micro_Pay */;
+			targetProxy = FBFC934C285091C200123652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBFC9353285091C200123652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBFC9354285091C200123652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFC9356285091C200123652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Micro_Pay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-Pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFC9357285091C200123652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Micro_Pay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-Pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBFC9359285091C200123652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-PayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micro_Pay.app/Micro_Pay";
+			};
+			name = Debug;
+		};
+		FBFC935A285091C200123652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-PayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micro_Pay.app/Micro_Pay";
+			};
+			name = Release;
+		};
+		FBFC935C285091C200123652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-PayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Micro_Pay;
+			};
+			name = Debug;
+		};
+		FBFC935D285091C200123652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubmask.Micro-PayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Micro_Pay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFC932C285091BE00123652 /* Build configuration list for PBXProject "Micro_Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFC9353285091C200123652 /* Debug */,
+				FBFC9354285091C200123652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFC9355285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFC9356285091C200123652 /* Debug */,
+				FBFC9357285091C200123652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFC9358285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_PayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFC9359285091C200123652 /* Debug */,
+				FBFC935A285091C200123652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFC935B285091C200123652 /* Build configuration list for PBXNativeTarget "Micro_PayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFC935C285091C200123652 /* Debug */,
+				FBFC935D285091C200123652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFC9329285091BE00123652 /* Project object */;
+}
